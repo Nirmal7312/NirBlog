@@ -32,7 +32,7 @@
   <div class="card-body">
     <h5 class="card-title">{{blog.title|truncatechars:10}}</h5>
     <p class="card-text">{{blog.desc|truncatechars:30}}...</p>
-    <a id="card{{forloop.counter}}" href="http://127.0.0.1:8000/blog/post/{{blog.id}}" class="btn btn-primary" >Read More</a>
+    <a id="card{{forloop.counter}}" href="https://nirblog.pythonanywhere.com/blog/post/{{blog.id}}" class="btn btn-primary" >Read More</a>
   </div>
 </div>
   {% endfor %}
